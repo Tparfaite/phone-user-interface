@@ -1,0 +1,66 @@
+body{
+    background:black;
+}
+
+body .shapped input[type=text]{
+    text-align:center ;
+    border-radius:30%;
+    background: black;
+    margin-top: 10px;
+    border:none;
+}
+.shapped{
+    border:2px solid white;
+    
+   text-align: center;
+   width:250px;
+   height:450px;
+   border-radius: 50px;
+   margin-left: 450px;
+   margin-top: 40px;
+   font-weight: bold;
+   background-image: url("download.jpeg");
+   background-repeat: no-repeat;
+   background-size: 250px;
+  
+   
+   
+}
+.shapped label[for=time]{
+    color:white;
+    font-size: 23px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.shapped label[for=date]{
+    color:white;
+    font-size: small;
+    margin-left: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.images2{
+    margin-top: 60px;
+}
+.new input[type=none]{
+   border-radius: 50px;
+   border-top: none;
+   border-color: white;
+   background-image: url("images.jpg"), url("download.png");
+   background-size: 30px,10px;
+   background-repeat: no-repeat;
+    background-position:left,right;
+    
+    height: 20px; 
+    margin-left: 50px; 
+}
+.middle{
+    display:grid;
+    grid-template-columns: 0fr 0fr 0fr;
+}
+.new{
+    height:8px;
+
+}
+
